@@ -194,6 +194,9 @@ footer {
 
 footer a {
   color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 footer a:hover {
