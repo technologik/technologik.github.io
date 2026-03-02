@@ -9,7 +9,7 @@ theme = "mikeruth"
 [menu]
   [[menu.main]]
     identifier = "building"
-    name = "Building + Patents"
+    name = "OSS & Patents"
     url = "/building/"
     weight = 10
   [[menu.main]]

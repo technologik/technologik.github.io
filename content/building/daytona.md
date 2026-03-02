@@ -1,5 +1,6 @@
 ---
 title: "Daytona"
+weight: 1
 date: 2019-04-26
 description: "Open source secrets injection tool for containers and services. Automates authentication and secret retrieval from HashiCorp Vault via Kubernetes, AWS, GCP, and Azure identity mechanisms."
 link: "https://github.com/cruise-automation/daytona"
