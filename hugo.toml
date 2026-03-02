@@ -1,0 +1,40 @@
+baseURL = "https://mikeruth.me/"
+languageCode = "en-us"
+title = "Mike Ruth"
+theme = "hugo-winston-theme"
+[pagination]
+  pagerSize = 10
+
+[params]
+  google_analytics_id = ""
+  author = "Mike Ruth"
+  show_author_in_posts = false
+
+[params.homepage]
+  show_recent_posts = false
+
+[params.logo]
+  text = "Mike Ruth"
+  url = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "building"
+    name = "Building + Patents"
+    url = "/building/"
+    weight = 20
+  [[menu.main]]
+    identifier = "writing"
+    name = "Writing"
+    url = "/writing/"
+    weight = 30
+  [[menu.main]]
+    identifier = "speaking"
+    name = "Speaking"
+    url = "/speaking/"
+    weight = 40
